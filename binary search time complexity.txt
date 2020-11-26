@@ -1,0 +1,15 @@
+for binary search
+
+in first loop 
+length of array is n
+in second loop 
+length of iteration is n/2
+go on..
+in kth loop
+length of iteration would be
+(n/2)^k
+finally after k division length of array becomes 1
+(n/2)*k=1
+taking log both sides
+log2(n) = k
+so time complexity is log2(n)
